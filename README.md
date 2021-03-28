@@ -1,4 +1,4 @@
-# Leaflet Homework - Visualizing Data with Leaflet
+# Leaflet Challenge - Visualizing Data with Leaflet
 
 ## Background
 
@@ -31,7 +31,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
    * Data markers reflect the magnitude of the earthquake by their size and and depth of the earth quake by color. Earthquakes with higher magnitudes appear larger and earthquakes with greater depth appear darker in color.
 
-   *The depth of the earthquake can be found as the third coordinate for each earthquake.
+   * The depth of the earthquake can be found as the third coordinate for each earthquake.
 
    * Earthquake details are shown when the marker is clicked. The popups provide additional information about the earthquake.
 
@@ -45,9 +45,9 @@ The USGS wants you to plot a second data set on your map to illustrate the relat
 
 In this section:
 
-* Plotted a second data set on our map.
+* Plotted a second data set onto map.
 
-* Added base maps (light, dark, satellite) to choose from as well as separated out our two different data sets (earthquakes and tectonic plages) into overlays that can be turned on and off independently.
+* Added base maps (light, dark, satellite) to choose from as well as separated out the two different data sets (earthquakes and tectonic plages) into overlays that can be turned on and off independently.
 
 * Added layer controls to map.
 
