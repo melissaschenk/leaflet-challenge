@@ -61,6 +61,7 @@ var colors = ["#610000","#810300","#A00E00","#C01D08","#DF2F13","#FF4420","#F94C
         var mag = response.features[i].properties.mag;
         var details = response.features[i].properties.place;
             details += "<br/>Magnitude: " + mag;
+            details += "<br/>Depth (km): " + location.coordinates[2];
             details += "<br/><a href='" + response.features[i].properties.url + "' target='_blank'>USGS Details</a>";
             //details += "<br/>" + response.features[i].properties.time;
 
